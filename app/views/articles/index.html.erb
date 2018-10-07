@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Blog</title>
+         <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    </head>
+
+    <body>
+        <div id="head">
+            <header>
+                <h1>{The Coding Blog}<span id="under-score">_</span></h1>            
+            </header>
+            <br>
+        </div>
+        
+        <div id="main-container">
+            <div class="blog-wrapper">
+                <% @articles.each do |article| %>
+                    <article class="post-excerpt">
+                      <section class="post-heading">
+                          <h2><%= article.title %></h2>
+  
+                          <section class="about">
+                              <em>Posted on <time><%= article.created_at %></time></em> &bull; 
+                              <span class="author">By Ankur Singh</span>
+                          </section>
+                      </section>
+  
+                      <section class="post-content">
+                          <p><%= article.description %></p>
+                      </section>
+  
+                      <section class="post-footer">
+                          <span class="categories">Filed in <strong>Learn to code</strong></span>
+                          <%= link_to "Edit", edit_article_path(article), class: 'Link' %>
+                          <%= link_to "View", article_path(article), class: 'Link' %>
+                          <%= link_to "Delete", article_path(article), method: :delete, data: {confirm: "Are you sure"}, class: 'Link' %>
+                      </section>
+                    </article>
+                <% end %>
+            </div>
+        </div>
+        
+        <footer>
+            <small>&copy; 2015 &mdash; Pradyumn Singh</small>
+        </footer>
+    </body>
+</html>

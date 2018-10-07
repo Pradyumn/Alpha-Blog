@@ -57,7 +57,7 @@ section.post-footer {
     display: block;
     margin: 20px 0 0;
     padding: 15px 0 0;
-    border-top: solid 4px #eee;
+    border-top: solid 2px #eee;
     color : #00c6a0;
 }
 
@@ -97,4 +97,16 @@ article.post-excerpt {
     animation-duration: 530ms;
     
     animation-iteration-count: infinite;
+}
+
+.Link {
+    float: right;
+    font-style: normal;
+    font-family: helvetica;
+    font-size: 14px;
+    display: inline;
+    margin: 0 0 0;
+    padding: 0 5px 0;
+    color: #4286f4;
+    text-decoration: none;
 }
