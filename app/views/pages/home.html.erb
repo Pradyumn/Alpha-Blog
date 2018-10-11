@@ -3,107 +3,13 @@
 <html>
     <head>
         <title>My Blog</title>
-         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+         <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     </head>
 
     <body>
-        <div id="head">
-            <header>
-                <h1>{The Coding Blog}<span id="under-score">_</span></h1>            
-            </header>
-            <br>
+        <div class="jumbotron">
+          <h1>Welcome to Alpha Blog</h1>
+          <p><%= link_to "Sign Up", "#", class: "btn btn-primary btn-lg btn-xlarge" %></p>
         </div>
-        
-        <div id="main-container">
-            <div class="blog-wrapper">
-                <article class="post-excerpt">
-                    <section class="post-heading">
-                        <h2>Why do you need to learn HTML</h2>
-
-                        <section class="about">
-                            <em>Posted on <time datetime="09-08-2018">Sept, 8 2018</time></em> &bull; 
-                            <span class="author">By Ankur Singh</span>
-                        </section>
-                    </section>
-
-                    <section class="post-content">
-                        <%= image_tag 'HTML_logo.jpg' , class: 'logo'%>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam arcu ante, sollicitudin in ornare a, iaculis nec 
-                        elit. Sed in nisl lacus. Vestibulum gravida eu nibh vel feugiat. Aenean vel erat molestie, gravida quam a, porttitor
-                        justo. Nulla malesuada, mauris sed rhoncus aliquam, dui justo viverra mauris, sit amet iaculis nisl ex viverra urna. 
-                        Praesent non enim non diam commodo finibus vel vitae augue. Sed scelerisque ullamcorper est, a feugiat purus porta at.
-                        Pellentesque vitae lorem accumsan, imperdiet nulla consectetur, ultricies leo. Nam a congue diam... Temporibus autem quibusdam et 
-                        aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
-                        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
-                        doloribus asperiores repellat...<a href=" ">read more</a></p>
-                    </section>
-
-                    <section class="post-footer">
-                        <span class="categories">Filed in <strong>Learn to code</strong></span>
-                    </section>
-                </article>
-
-                <article class="post-excerpt">
-                    <section class="post-heading">
-                        
-                        <h2>Why do you need to learn CSS</h2>
-                        <section class="about">
-                            <em>Posted on <time datetime="09-12-2018">Sept, 12 2018</time></em> &bull; 
-                            <span class="author">By Ankur Singh</span>
-                        </section>
-                        
-                    </section>
-
-                    <section class="post-content">
-                        <%= image_tag 'css_logo.jpg', class: 'logo'%>
-                        <p>Donec lorem odio, convallis id quam id, vestibulum vehicula dui. Sed varius nibh metus,
-                        id imperdiet magna pellentesque vel. Fusce tellus enim, luctus vitae lacus sit amet, 
-                        tempor pulvinar ligula. Mauris non finibus quam. Mauris tincidunt vitae nibh in fermentum. 
-                        Vivamus tortor ante, sagittis vitae urna nec, ultricies tempus orci. Quisque vel consequat nisl. 
-                        Sed pulvinar erat at leo interdum placerat. Ut dapibus urna elit. Sed nec felis enim. Aenean quis 
-                        tincidunt massa. Etiam fringilla suscipit velit id venenatis. Curabitur maximus tincidunt condimentum.
-                        Aliquam eget vestibulum tellus. Praesent finibus tristique justo, ac posuere quam consequat sit amet. 
-                        Sed malesuada, turpis quis lacinia pellentesque, nisi nisi aliquam ante, a interdum augue quam quis felis....
-                        <a href=" ">read more</a></p>
-                    </section>
-
-                    <section class="post-footer">
-                        <span class="categories">Filed in <strong>Learn to code</strong></span>
-                    </section>
-                </article>
-                
-                <article class="post-excerpt">
-                    <section class="post-heading">
-                        <h2>Why do you need to learn JavaScript</h2>
-
-                        <section class="about">
-                            <em>Posted on <time datetime="09-21-2018">Sept, 21 2018</time></em> &bull; 
-                            <span class="author">By Ankur Singh</span>
-                        </section>
-                    </section>
-
-                    <section class="post-content">
-                        <%= image_tag 'js_logo.jpg', class: 'logo'%>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
-                        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt
-                        in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est
-                        et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus 
-                        id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Suspendisse euismod 
-                        felis ut ultricies pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                         Praesent placerat leo tortor, ac efficitur nisi laoreet ut. Duis tortor nibh, hendrerit ac odio ut, 
-                         convallis aliquet libero.... <a href=" ">read more</a></p>
-                    </section>
-
-                    <section class="post-footer">
-                        <span class="categories">Filed in <strong>Learn to code</strong></span>
-                    </section>
-                </article>
-                
-            </div>
-        </div>
-        
-        <footer>
-            <small>&copy; 2015 &mdash; Pradyumn Singh</small>
-        </footer>
     </body>
 </html>
