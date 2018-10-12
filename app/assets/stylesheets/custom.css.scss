@@ -29,6 +29,19 @@ nav .navbar-nav li a{
   background-color: #1a71b8;
 }
 
+.article-action {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.article-btn {
+  margin-right: 3px;
+}
+
+.heading {
+  text-align: center;
+}
+
 footer {
   margin-top: 50px;
   border-top: 1px solid #ccc;
@@ -48,8 +61,4 @@ footer small {
 footer ul {
   float: right;
   list-style: none;
-}
-
-.heading {
-  text-align: center;
 }
