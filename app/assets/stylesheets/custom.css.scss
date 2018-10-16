@@ -8,9 +8,25 @@ nav .navbar-nav li a{
   color: white !important;
 }
 
+h1, h2 {
+  font: helvetica;
+}
+
 #logo {
   font: 2em;
   color: #fff;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+#main-container {
+    width: 900px;
+    padding: 40px 20px 20px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 3px 3px #ddd;
 }
 
 .jumbotron {
@@ -39,7 +55,57 @@ nav .navbar-nav li a{
 }
 
 .heading {
+  padding-top: 10px;
+  margin-top: -20px;
   text-align: center;
+}
+
+.Link {
+  float: right;
+  color : #00c6a0;
+  padding-left: 10px;
+}
+
+.article-block {
+    background: #fff;
+    border: dashed 3px #ddd;
+    border-radius: 10px;
+}
+
+section.about {
+    font-size: 14px;
+    display: block;
+    margin: 0 0 10px;
+    padding: 5px 0 15px;
+    border-bottom: solid 1px #eee;
+    color : #00c6a0;
+    font-style: italic;
+} 
+
+.article-title {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.article-title .Title {
+  color: #000;
+}
+
+.article-body {
+  font-size: 18px;
+  text-align: justify;
+}
+
+footer {
+
+margin-top: 45px;
+
+padding-top: 5px;
+
+border-top: 1px solid #eaeaea;
+
+color: #777;
+
 }
 
 footer {
@@ -47,7 +113,7 @@ footer {
   border-top: 1px solid #ccc;
   color: #aaa;
   font-size: 14px;
-  padding: 10px 0 10px;
+  padding: 10px 5px 10px;
 }
 
 footer a:hover {
