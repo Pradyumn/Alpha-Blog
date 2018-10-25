@@ -5,7 +5,11 @@ $navbar-default-font: #fff;
 @import "bootstrap";
 
 nav .navbar-nav li a{
-  color: white !important;
+  color: #fff !important;
+}
+
+nav .dropdown-menu li a{
+  color: black !important;
 }
 
 h1, h2 {
