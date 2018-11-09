@@ -101,15 +101,10 @@ section.about {
 }
 
 footer {
-
-margin-top: 45px;
-
-padding-top: 5px;
-
-border-top: 1px solid #eaeaea;
-
-color: #777;
-
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
 }
 
 .avatar {
@@ -143,5 +138,22 @@ footer small {
 
 footer ul {
   float: right;
+  list-style: none;
+}
+
+.badge {
+  margin: 0 5px 0;
+  background-color: #00c6a0;
+  color: #fff !important;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.badge a {
+  color: #fff;
+}
+
+.category-name{
+  font-size: 18px;
   list-style: none;
 }
